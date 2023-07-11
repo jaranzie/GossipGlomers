@@ -17,7 +17,11 @@ Cargo.lock
 # Added by cargo
 
 /target
-
+/maelstrom
+maelstrom
+maelstrom/
+store/
+store
 
 # Added by cargo
 #
