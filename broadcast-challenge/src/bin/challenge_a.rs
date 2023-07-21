@@ -1,7 +1,7 @@
 use async_trait::async_trait;
 use maelstrom::{Node, Runtime, Result, protocol::Message, done};
 use std::sync::{Arc, Mutex};
-use serde_json::{Map, Value, json};
+use serde_json::{Map, json};
 #[derive(Default)]
 struct EchoNode {
     seen_values: Mutex<Vec<i64>>
